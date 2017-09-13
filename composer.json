@@ -1,0 +1,33 @@
+{
+    "name"        : "raininja/mainelybudz.us",
+    "description" : "Development project for mainelybudz via Composer",
+    "authors"     : [
+        {
+            "name"    : "Daniel Mclellan",
+            "email"   : "daniel.mclellan@gmail.com",
+            "homepage": "https://denki.ninja/"
+        }
+    ],
+    "type"        : "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "http://wpackagist.org"
+        }
+    ],
+    "config"      : {
+        "vendor-dir": "wp-content/vendor",
+        "secure-http": false
+    },
+    "require"     : {
+        "johnpbloch/wordpress": ">=4.8.1",
+        "johnpbloch/wordpress-core-installer": "*",
+        "wpackagist-plugin/backupwordpress": "*"
+    },
+    "require-dev" : {
+        "wpackagist-plugin/wcm-user-language-switcher": "*"
+    },
+    "extra"       : {
+        "wordpress-install-dir": "wp"
+    }
+}

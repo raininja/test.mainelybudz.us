@@ -1,0 +1,4 @@
+dist/
+.taskfile
+wp/wp-content.off
+wp-content/vendor
